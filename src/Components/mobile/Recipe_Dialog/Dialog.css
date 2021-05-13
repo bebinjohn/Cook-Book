@@ -1,0 +1,18 @@
+.Recipe_data ol {
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.Dialog_heading {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 39px;
+  color: #404040;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.Recipe_data {
+  line-height: 20px;
+}

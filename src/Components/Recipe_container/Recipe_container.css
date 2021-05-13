@@ -1,0 +1,41 @@
+.Recepie_container {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0 gray;
+  height: 700px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.Recepie_container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.Recepie_container h1 {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 39px;
+  color: #404040;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.Recepie_container div {
+  font-family: Roboto;
+  font-size: 0.825em;
+  line-height: 25px;
+  padding: 0;
+}
+
+.Recepie_container div ol {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Recepie_container {
+    display: none;
+  }
+}

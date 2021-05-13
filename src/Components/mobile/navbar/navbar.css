@@ -1,0 +1,86 @@
+.Navbar_container {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .Navbar_container {
+    height: 100vh;
+    width: 70%;
+    position: absolute;
+    border: 1px solid gray;
+    left: -85%;
+    background: white;
+    z-index: 1;
+    top: 0;
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+  }
+  .header_container h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+    font-family: Arima Madurai;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    margin: 15px 0 0 10px;
+    color: #404040;
+  }
+  .header_container div {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 9px 8px 0 0;
+  }
+
+  .navbar_input_contianer {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .navbar_input_contianer input {
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+  }
+
+  .navbar_input_contianer input :focus {
+    outline: 0;
+  }
+  .navbar_input_contianer div {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .Navbar_type {
+    margin: 20px 0 0 10px;
+  }
+  .Navbar_type h2 {
+    font-family: Arima Madurai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 39px;
+    color: gray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .Navbar_type > nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .Navbar_type > nav > div {
+    font-family: Roboto;
+    font-size: 1em;
+    color: gray;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,130 @@
+.Each_receipe {
+  box-shadow: 2.15814px 3.23721px 11.8698px rgba(0, 0, 0, 0.14);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.Each_receipe img {
+  width: 100px;
+  height: 100px;
+  margin-top: -40px;
+  border-radius: 50%;
+}
+
+.Each_receipe p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.825em;
+  line-height: 18px;
+  color: #000000;
+}
+
+.Each_receipe div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 15px;
+  color: #969696;
+}
+
+.Whole_recipe_container {
+  overflow-x: scroll;
+  position: relative;
+  margin-left: 2%;
+  width: 95%;
+}
+
+.animation {
+  position: relative;
+  display: flex;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+}
+.More_recepie_container {
+  margin-left: 6%;
+  overflow-x: scroll;
+}
+.More_recepie_container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.Whole_recipe_container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.More_recepie_heading {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 39px;
+  color: #404040;
+  margin-bottom: 5px;
+  padding: 10px 0 5px 0;
+  margin-top: 30px;
+}
+
+@keyframes move {
+  0% {
+    right: 10px;
+  }
+  10% {
+    right: 50px;
+  }
+  20% {
+    right: 150px;
+  }
+  30% {
+    right: 180px;
+  }
+  40% {
+    right: 200px;
+  }
+  50% {
+    right: 250px;
+  }
+
+  60% {
+    right: 300px;
+  }
+  70% {
+    right: 400px;
+  }
+
+  80% {
+    right: 520px;
+  }
+  90% {
+    right: 0px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .animation {
+    animation-play-state: paused;
+    width: 100%;
+  }
+  .Each_receipe img {
+    width: 70px;
+    height: 70px;
+  }
+  .Each_receipe {
+    width: 100px;
+  }
+}

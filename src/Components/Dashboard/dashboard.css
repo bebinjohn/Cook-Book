@@ -1,0 +1,155 @@
+.Dash_Board_container {
+  background: white;
+  position: relative;
+  border-radius: 13px;
+  box-shadow: 5px 5px 10px 0 gray;
+}
+.Dash_Board_container h1 {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 39px;
+  color: #404040;
+  margin-bottom: 5px;
+  width: 80%;
+  padding: 10px 0 5px 0;
+}
+
+.Text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.85em;
+  line-height: 20px;
+  color: #404040;
+  width: 73%;
+}
+.Dash_Board_container > div {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.Ingredient_Each_container {
+  display: flex;
+  margin: 5px 10px 10px 0;
+}
+.Ingredient_Each_container .Each_image img {
+  width: 50px;
+  height: 50px;
+}
+.Ingredients_container {
+  margin-top: 20px;
+}
+.Ingredients_container > div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Ingredients_container h2 {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #969696;
+}
+.Text_container {
+  margin: 10px 0 0 8px;
+}
+.Text_container p {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 12px;
+  color: #404040;
+}
+.Text_container div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.825em;
+  line-height: 15px;
+  margin-top: 8px;
+  color: #969696;
+}
+
+.view_Button {
+  height: 24.05px;
+  color: white;
+  font-size: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 9px;
+}
+
+.Nutrition_each_container {
+  width: 12%;
+  background: #f0f7ff;
+  box-shadow: 0 5px 5px 0 gray;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.Nutrition_each_container div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 23px;
+  color: #000000;
+}
+
+.Nutrition_each_container p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 15px;
+  color: #000000;
+}
+
+.Nutrition_each_container :last-child {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.825em;
+  line-height: 15px;
+  color: #969696;
+}
+
+.Image {
+  width: 50%;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px 0 gray;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: -25%;
+}
+
+.view_recipe_button {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .Image {
+    display: none;
+  }
+  .Text {
+    width: 100%;
+  }
+  .Nutrition_each_container {
+    width: 10%;
+  }
+  .Dash_Board_container > div {
+    padding-left: 8px;
+  }
+}

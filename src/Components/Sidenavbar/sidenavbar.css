@@ -1,0 +1,31 @@
+.Side_navbar_container div {
+  transform: rotate(-90deg);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 21px;
+  color: #969696;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.Side_navbar_container div:hover {
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.Side_navbar_container {
+  position: fixed;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .Side_navbar_container {
+    display: none;
+  }
+}
