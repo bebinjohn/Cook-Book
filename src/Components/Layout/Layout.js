@@ -47,7 +47,7 @@ export default function Layout(){
     //Function for searching the dish
     const searchall=()=>{
         setfood(Input.current.value)
-        if(Input.current.value!=''){
+        if(Input.current.value!==''){
         setshowloading(true)
            search(Input.current.value,foodtime).then((res)=>{
                setshowloading(false)

@@ -37,7 +37,7 @@ export default function Ingredients({data}) {
     const Each_ingredients=data.main.ingredients.map((each,index)=>{
         return(
             <div key={index} className="Ingredient_Each_container">
-            <div className='Each_image'><img src={`https://spoonacular.com/cdn/ingredients_100x100/${each.image}`}></img></div>
+            <div className='Each_image'><img alt={each.name} src={`https://spoonacular.com/cdn/ingredients_100x100/${each.image}`}></img></div>
             <div className='Text_container'>
                 <p style={{textTransform:"capitalize"}}>{each.name}</p>
                 <div>{each.originalString}</div>

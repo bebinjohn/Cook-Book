@@ -9,6 +9,7 @@ export default function SideNavbar({type,typefun,change}){
     const madeselect=(id)=>{
             typefun(id)
             change(id)
+            document.getElementById('Top').scrollIntoView()
     }
         return(
             <div>
