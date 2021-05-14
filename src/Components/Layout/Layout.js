@@ -129,7 +129,7 @@ export default function Layout(){
                 <Dashboard reciepe_data={data}/>
                 </div>
                 <div></div>
-                <Recipe_container data={data}/>
+                {data? <Recipe_container data={data}/>:<div></div>}
                 <div></div>
                 </div>
                 {data? <More_Recepie set={setdata} reciepe_data={data}/>:<div></div>}

@@ -6,6 +6,6 @@ import moment from 'moment'
 export const time=()=>{
     const hour=moment().format('HH')
     if(hour>=3&&hour<=8) return 'breakfast'
-    else if(hour>=9&&hour<=16) return 'main course'
+    else if(hour>=9&&hour<=14) return 'main course'
     else return 'salad'
 }

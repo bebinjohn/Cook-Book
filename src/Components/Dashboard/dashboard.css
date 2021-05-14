@@ -151,5 +151,10 @@
   }
   .Dash_Board_container > div {
     padding-left: 8px;
+    padding-right: 5px;
+  }
+  .Dash_Board_container {
+    margin: 0 6px 0 5px;
+    box-shadow: 1px 1px 10px 0 gray;
   }
 }

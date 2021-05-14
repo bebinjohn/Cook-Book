@@ -126,5 +126,12 @@
   }
   .Each_receipe {
     width: 100px;
+    margin-top: 30px;
+  }
+  .More_recepie_heading {
+    margin: 0;
+  }
+  .More_recepie_container {
+    margin-left: 1%;
   }
 }
